@@ -8,26 +8,31 @@
 }
 .Footer .content {
   position: absolute;
-  width: fit-content;
-  /* background-color: red; */
   top: 2em;
   bottom: 2em;
   left: 4em;
   right: 4em;
 }
 .Footer img {
-  width: 12%;
+  width: 12em;
 }
 .Footer p {
   color: white;
   font-family: "poppins", sans-serif;
-  margin-left: 0.5em;
 }
 
-.Footer .content .details {
-  /* position: relative; */
+.Footer .details {
   display: flex;
-  /* gap: 2em; */
+  justify-content: space-between;
+  /* gap: 20em; */
+}
+
+.Footer .FollowUs .icon {
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 5px;
+  size: 10px;
+  cursor: pointer;
 }
 .Footer .copyright {
   text-align: center;

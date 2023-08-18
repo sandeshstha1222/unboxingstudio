@@ -1,0 +1,8 @@
+.herosection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.herosection img {
+  width: 40em;
+}
